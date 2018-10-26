@@ -1,6 +1,6 @@
 # CFGraph - RDF Collections flattener for `rdflib`
-[![Pyversions](https://img.shields.io/pypi/pyversions/CFGraph.svg)](https://pypi.python.org/pypi/sparql_slurper)
-[![PyPi](https://version-image.appspot.com/pypi/?name=CFGraph)](https://pypi.python.org/pypi/sparql_slurper)
+[![Pyversions](https://img.shields.io/pypi/pyversions/CFGraph.svg)](https://pypi.python.org/pypi/CFGraph)
+[![PyPi](https://img.shields.io/pypi/v/CFGraph.svg)](https://pypi.python.org/pypi/CFGraph)
 
 ## Revision History
 * 0.1.0 - Initial drop
