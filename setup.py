@@ -9,13 +9,13 @@ if sys.version_info < (3, 6):
 setup(
     name='CFGraph',
     version='0.1.0',
-    packages=['sparql_slurper'],
+    packages=['CFGraph'],
     url="http://github.com/hsolbrig/CFGraph",
     license='Apache 2.0',
     author='Harold Solbrig',
     author_email='solbrig@solbrig-informatics.com',
     description='rdflib collections flattening graph',
-    install_requires=['rdflib'],
+    install_requires=['rdflib>=0.4.2'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
