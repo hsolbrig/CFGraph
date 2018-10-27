@@ -8,7 +8,7 @@ if sys.version_info < (3, 6):
 
 setup(
     name='CFGraph',
-    version='0.1.0',
+    version='0.2.0',
     packages=['CFGraph'],
     url="http://github.com/hsolbrig/CFGraph",
     license='Apache 2.0',
@@ -17,7 +17,7 @@ setup(
     description='rdflib collections flattening graph',
     install_requires=['rdflib>=0.4.2'],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         'Environment :: Console',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries',
