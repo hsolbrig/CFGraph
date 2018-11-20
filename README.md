@@ -5,6 +5,7 @@
 ## Revision History
 * 0.1.0 - Initial drop
 * 0.2.0 - Functionality overhaul
+* 0.2.1 - Fixes issue #1
 
 An implementation of a [`rdflib`](https://github.com/RDFLib/rdflib)[`Graph`](https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.html#rdflib.graph.Graph)
 that reads well-formed RDF collections as lists.

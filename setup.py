@@ -8,7 +8,7 @@ if sys.version_info < (3, 6):
 
 setup(
     name='CFGraph',
-    version='0.2.0',
+    version='0.2.1',
     packages=['CFGraph'],
     url="http://github.com/hsolbrig/CFGraph",
     license='Apache 2.0',

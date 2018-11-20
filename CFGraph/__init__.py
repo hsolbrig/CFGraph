@@ -61,7 +61,7 @@ class CFGraph(Graph):
 
     def subjects(self, predicate: Optional[PRED]=None, object: Optional[OBJ]=None):
         for s, p in self.subject_predicates(object):
-            if p == predicate:
+            if predicate is None or p == predicate:
                 yield s
 
     def _list_root(self, n: BNode) -> Optional[Tuple[SUBJ, PRED]]:
